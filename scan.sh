@@ -37,6 +37,7 @@ else
 	# create PDF
 	echo 'creating PDF...'  
 	cp ocr.pdf $OUT_DIR/$FILE_NAME.pdf
+	chmod 666 $OUT_DIR/$FILE_NAME.pdf
 	# aws s3 cp ocr.pdf s3://scan-dhnne6h/$FILE_NAME.pdf --endpoint-url=https://s3.eu-central-1.wasabisys.com >> /home/matthias/log.file 2>&1
 	# aws s3 cp ocr.pdf s3://scan-todo-jshennn23/$FILE_NAME.pdf >> /home/matthias/log.file 2>&1
 	# whoami >> /home/matthias/whoami
