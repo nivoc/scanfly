@@ -13,7 +13,7 @@ scanimage --resolution 300 \
           --mode Gray \
           --source 'ADF Duplex' \
 	  --swdeskew="no" \
-	  --swskip 5 \
+	  --swskip 15 \
 	  --ald="yes" \
 	  --brightness 13 \
 	  --page-height 297 \
